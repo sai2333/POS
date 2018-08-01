@@ -71,9 +71,8 @@ data = [{'goodsId':1,'goodsName':'鸡米花','price':10}] ==> {'{'goodsId':1,'go
 后来才得知，直接提交json数据的话，前端必须告知服务器端数据是json格式。所以把headers改下就可以了。最终修改axios的headers属性为：application/json;
 ### 修改代码
 [![pos.png](https://s6.postimg.cc/tcqhdub0h/pos.png)](https://postimg.cc/image/5yii1wt31/)
-这是主要的代码，如果直接想添加主要功能的话可以到pos.vue里面进行，数据库在collectMoney.vue查询。vue-router配置，在router的index.js。每个功能在当前页面都是有注释的，如果实在还是有看不懂的地方，可以联系我。
-### 效果图
-点击图片可查看gif图
+这是主要的代码结构，如果想添加主要功能的话可以到pos.vue里面进行，数据库在collectMoney.vue查询。vue-router配置，在router的index.js。每个功能在当前页面都是有注释的，如果实在还是有看不懂的地方，可以联系我。
+### 效果图，点击图片可查看gif图
 [![toGKf.md.gif](https://cuntuku.com/images/2018/08/01/toGKf.md.gif)](https://cuntuku.com/image/toGKf)
 [![toiEc.md.gif](https://cuntuku.com/images/2018/08/01/toiEc.md.gif)](https://cuntuku.com/image/toiEc)
 ### 这个项目起源一个好友的需求，目前项目功能还不完善，不过对于日常还是能使用的。后续出现bug，也会反馈，记录在这里。
